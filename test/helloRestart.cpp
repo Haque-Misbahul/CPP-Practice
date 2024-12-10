@@ -8,4 +8,5 @@ using namespace std;
 int main (){
     cout << "Restarted practice of cpp again";
    // cout << "Restarted practice of cpp again" << endl;  when using std differently
+   return 0;
 }
