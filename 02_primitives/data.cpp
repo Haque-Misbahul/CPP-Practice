@@ -11,7 +11,7 @@ int main(){
     char teaGrade = 'A';
     bool isTeaReady = false; 
 
-    cout << priceOfTea << endl;
+    cout << teaGrade << endl;
 
 
     return 0;
