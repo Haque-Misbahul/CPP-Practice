@@ -36,9 +36,8 @@ CPP-Practice/
 
 ## Tools & Environment
 - **Language:** C++
-- **Compiler:** GCC / G++
-- **IDE:** Visual Studio Code, Code::Blocks, or any other preferred tool.
-- **Operating System:** Windows / Linux / MacOS
+- **IDE:** Visual Studio Code
+- **Operating System:**  MacOS
 
 ## Progress
 | Topic                          | Status        |
