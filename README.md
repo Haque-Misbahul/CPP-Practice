@@ -1,7 +1,7 @@
 # C++ Practice Repository
 
 ## Overview
-Welcome to my **C++ Practice Repository**! This repository is dedicated to refreshing and enhancing my C++ programming skills. After a break of a few years, I am starting from the basics to polish my knowledge and grow further as a programmer.
+Welcome to my **C++ Practice Repository**!! This repository is dedicated to refreshing and enhancing my C++ programming skills. After a break of a few years, I am starting from the basics to polish my knowledge and grow further as a programmer.
 
 ## About
 - **Last Coding Experience:** During my bachelor's degree, I wrote C++ code actively.
