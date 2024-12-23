@@ -6,25 +6,18 @@ using namespace std;
 
 int main(){
 
-    int cups;
-    double pricePerCup, totalPrice, discountedPrice;
+    int teaBags;
 
-    cout << "Enter the number of tea cups: ";
-    cin >> cups;
-    cout << "Enter the price per cups: ";
-    cin >> pricePerCup;
+    cout << "Enter the number of tea bags you have: ";
+    cin >> teaBags;
 
-    totalPrice =cups * pricePerCup;
+    if (teaBags < 10) {
+        // teaBags = teaBags + 5
+        teaBags += 5;
+    } 
+    cout << "Your total bags are: " << teaBags << endl;
+    
 
-    //Apply  5% discount if the total price in more than 100
-
-    if (totalPrice>100)
-    {
-        discountedPrice = totalPrice -(totalPrice*0.05); 
-        cout << "Total Price is: " << totalPrice << endl ;
-        cout << "Discounted price is: " << discountedPrice << endl;
-    } else {
-        cout << "Total Price is: " << totalPrice << endl ;
-    }
+    return 0;
     
 }
