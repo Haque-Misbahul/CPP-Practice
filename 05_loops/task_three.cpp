@@ -8,7 +8,8 @@ int main(){
     for( int i = 1 ; i <= teaCups ; i++){
         cout << "Brewing cup " << i << " of tea..." << endl;
     }
+    cout << endl;
     cout << i;
-    cout << "Outside of loop";
+    cout << " Outside of loop";
     return 0;
 }
