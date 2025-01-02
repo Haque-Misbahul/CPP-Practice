@@ -42,9 +42,9 @@ CPP-Practice/
 ## Progress
 | Topic                          | Status        |
 |--------------------------------|---------------|
-| Basic Syntax                   | In Progress   |
-| Functions and Loops            | Upcoming      |
-| Object-Oriented Programming    | Upcoming      |
+| Basic Syntax                   | Completed     |
+| Functions and Loops            | Completed     |
+| Object-Oriented Programming    | In Progress   |
 | STL and Advanced Topics        | Upcoming      |
 | Projects                       | Upcoming      |
 
