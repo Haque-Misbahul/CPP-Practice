@@ -37,5 +37,13 @@ chaiOne.ingredients = {"water", "lemon", "honey", "tea"};
 
 chaiOne.displayChaiDetails();
 
+Chai chaiTwo;
+
+chaiTwo.teaName = "Masala tea";
+chaiTwo.servings = 4;
+chaiTwo.ingredients = {"water", "Masala", "honey", "tea"};
+
+chaiTwo.displayChaiDetails();
+
 return 0;
 }
