@@ -43,6 +43,7 @@ CPP-Practice/
 | Topic                          | Status        |
 |--------------------------------|---------------|
 | Basic Syntax                   | Completed     |
+| Array                          | Completed     |
 | Functions and Loops            | Completed     |
 | Object-Oriented Programming    | In Progress   |
 | STL and Advanced Topics        | Upcoming      |
