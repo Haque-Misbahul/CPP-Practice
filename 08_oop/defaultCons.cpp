@@ -1,5 +1,7 @@
 #include<iostream>
 #include<vector>
+#include <string>
+#include <initializer_list>
 
 using namespace std;
 
@@ -10,7 +12,10 @@ public:
     vector<string> ingredients;
     //default constructor
     Chai(){
-        cout<< "Constructor called" << endl;
+        teaName = "Unknown Tea";
+        servings = 1;
+        ingredients = {"Water", "Tea Leaves"};
+        cout << "Constructor called"  << endl;
     }
 
     // memeber function
@@ -31,6 +36,8 @@ public:
 int main(){
 
     Chai defaultChai;
+
+    defaultChai.displayChaiDetails();
 
     return 0;
 }
