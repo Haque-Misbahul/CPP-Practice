@@ -24,8 +24,32 @@ class Chai {
         }
 
         //getter
-        string getTeaname(){
+        string getTeaName(){
             return teaName;
+        }
+        //setter
+        void setTeaName(string name){
+            teaName = name;
+        }
+         //getter for serving
+        int getServings(){
+            return servings;
+        }
+
+        //setter for servings
+        void setServings(int serve){
+            servings = serve;
+        }
+
+        //getter for ingre
+        vector<string> getIngredients(){
+            return ingredients;
+        }
+
+        //settter for ingre
+
+        void setIngredients(vector<string> ingr){
+            ingredients = ingr;
         }
 };
 
