@@ -45,6 +45,7 @@ CPP-Practice/
 | Basic Syntax                   | Completed     |
 | Array                          | Completed     |
 | Functions and Loops            | Completed     |
+| Friend keyword                 | Completed     |
 | Object-Oriented Programming    | In Progress   |
 | STL and Advanced Topics        | Upcoming      |
 | Projects                       | Upcoming      |
