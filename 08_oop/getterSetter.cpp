@@ -47,13 +47,26 @@ class Chai {
         }
 
         //settter for ingre
-
         void setIngredients(vector<string> ingr){
             ingredients = ingr;
+        }
+
+         void displayChaiDetails (){
+            cout << "Tea Name: "  << teaName << endl;
+            cout << "Servibgs: " << servings << endl;
+            cout << "Ingerdients: " ;
+            for (string ingredient : ingredients)
+            {
+                cout << ingredient << " ";
+            }
+            cout << endl;
+            
         }
 };
 
 int main (){
     Chai chai;
-   
+
+    chai.setTeaName("ginger tea");
+   return 0;
 }
