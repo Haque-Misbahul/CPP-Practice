@@ -18,6 +18,16 @@ class BankAccount {
             return balance;
         }
 
+         //Method to deposit money
+        void deposit(double amount){
+            if(amount > 0){
+                balance += amount;
+                cout << "Deposited: " << amount << endl;
+            } else {
+                cout << "Invalid deposit amount";
+            }
+        }
+
       
 
 };
