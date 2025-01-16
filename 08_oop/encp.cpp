@@ -27,6 +27,13 @@ class BankAccount {
                 cout << "Invalid deposit amount";
             }
         }
+         void withdraw(double amount) {
+            if(amount > 0 && amount <= balance){
+                balance -= amount;
+            }else {
+                cout << "Invalid withdrawn amount" << endl;
+            }
+        }
 
       
 
@@ -35,7 +42,11 @@ class BankAccount {
 int main(){
     BankAccount myAccount("1229988", 500);
 
-  
+  myAccount.getBalance();
+
+    myAccount.deposit(200);
+    myAccount.withdraw(100);
+
 
     return 0;
 }
