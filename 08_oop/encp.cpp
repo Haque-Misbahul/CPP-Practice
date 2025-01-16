@@ -13,6 +13,11 @@ class BankAccount {
             balance = initialBalance;
         }
 
+           //getter
+        double getBalance() const {
+            return balance;
+        }
+
       
 
 };
