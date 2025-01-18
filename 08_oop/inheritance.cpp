@@ -20,6 +20,12 @@ class Tea{
         virtual void brew() const {
             cout << "Brewing " << teaName << "With generic method" << endl;
         }
+        virtual void serve() const {
+            cout << "Serving " << servings << "cup of tea With generic method" << endl;
+        }
+        virtual ~Tea(){
+            cout << "Tea destructor called for " << teaName << endl;
+        }
 };
 
 
